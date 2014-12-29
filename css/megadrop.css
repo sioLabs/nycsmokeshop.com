@@ -2,9 +2,19 @@
 
 
 body { font-family: "PT Sans", sans-serif; background: #f5f5f5; font-size: 100%;}
-a { color: #666; text-decoration: none;}
 
-.nav {
+.mynav ul {
+	font-size:90%;
+	margin-left:0px;
+}
+
+.mynav h3{
+	font-size:1rem;
+	text-decoration:underline;
+}
+.mynav ul a { color: #666; text-decoration: none;}
+
+.mynav {
 	background: #666;
 	border-radius: 3px;
 	width: 960px;
@@ -12,27 +22,27 @@ a { color: #666; text-decoration: none;}
 	height: 43px;
 }
 
-.nav li { list-style: none;  }
-.nav > li { padding: 0; float: left; position: relative; }
-.nav > li > a {
+li { list-style: none;  }
+.mynav > li { padding: 0; float: left; position: relative; }
+.mynav > li > a {
 	float: left;
 	color: #fff;
 	font-size: 13px;
 	text-decoration: none;
 	line-height: 43px;
-	padding: 0 20px; 
+	padding: 0 20px;
 	border-right: 1px solid #777;
 	border-left: 1px solid #555;
 	height: 43px;
 }
-.nav > li:hover > a { background: #555;	border-right: 1px solid #666; }
-.nav > li:first-child > a { border-left: 0; }
-.nav > li:last-child > a { border-right: 0; }
-.nav > li:hover > div { display: block; }
+.mynav > li:hover > a { background: #555;	border-right: 1px solid #666; }
+.mynav > li:first-child > a { border-left: 0; }
+.mynav > li:last-child > a { border-right: 0; }
+.mynav > li:hover > div { display: block; }
 
 /* MEGA DROP DOWN */
 
-.nav > li > div {
+.mynav > li > div {
 	position: absolute;
 	left: 0;
 	top: 43px;
@@ -42,8 +52,8 @@ a { color: #666; text-decoration: none;}
 	box-shadow: 0 2px 3px rgba(0,0,0,0.1);
 	overflow: hidden;
 }
-.nav > li > div p { color: #666; }
-.nav > li > div.right { right: 0; left: auto }
+.mynav > li > div p { color: #666; }
+.mynav > li > div.right { right: 0; left: auto }
 .container-1, .container-2, .container-3, .container-4 { font-size: 80%; }
 
 
@@ -85,20 +95,20 @@ a { color: #666; text-decoration: none;}
 
 /* HIGHLIGHTS */
 
-.container-3 .highlighted { 
-	width: 400px; 
-	margin-left: -20px; 
-	padding: 20px; 
-	background: #e4fbff; 
-	border-top: 1px solid #ddd; 
+.container-3 .highlighted {
+	width: 400px;
+	margin-left: -20px;
+	padding: 20px;
+	background: #e4fbff;
+	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 }
-.container-4 .highlighted { 
+.container-4 .highlighted {
 	width: 500px;
-	margin-left: -10px; 
-	padding: 20px; 
-	background: #e4fbff; 
-	border-top: 1px solid #ddd; 
+	margin-left: -10px;
+	padding: 20px;
+	background: #e4fbff;
+	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 }
 
