@@ -7,6 +7,11 @@
 	<link rel="stylesheet" href="css/siolabs.css" />
 	<link rel="stylesheet" href="css/megadrop.css" />
 	<link rel="stylesheet" href="css/foundation.css" />
+	<!-- Important Owl stylesheet -->
+	<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+
+	<!-- Default Theme -->
+	<link rel="stylesheet" href="owl-carousel/owl.theme.css">
 	<script src="js/vendor/modernizr.js"></script>
 </head>
 <body>
@@ -83,6 +88,17 @@
 		<div class="row">
 			<div class="large-8 columns">
 				<!-- put the store images here -->
+
+
+				 <div id="owl-demo" class="owl-carousel owl-theme">
+
+					<div class="item"><img src="img/store/img (1).jpg" alt="The Last of us"></div>
+					<div class="item"><img src="img/store/img (2).jpg" alt="GTA V"></div>
+					<div class="item"><img src="img/store/img (3).jpg" alt="Mirror Edge"></div>
+
+				</div>
+
+
 			</div>
 			<div class="large-4 columns">
 			   <!-- put store offers here -->
@@ -96,5 +112,21 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
+<script src="owl-carousel/owl.carousel.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+	$("#owl-demo").owlCarousel({
+
+
+		slideSpeed : 300,
+		paginationSpeed : 400,
+		singleItem:true
+	});
+
+});
+</script>
+
+
 </body>
 </html>
