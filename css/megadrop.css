@@ -12,12 +12,12 @@ body { font-family: "PT Sans", sans-serif; background: #f5f5f5; font-size: 100%;
 	font-size:1rem;
 	text-decoration:underline;
 }
-.mynav ul a { color: #666; text-decoration: none;}
+.mynav ul a { color: #000; text-decoration: none;}
 
 .mynav {
 	background: #666;
 	border-radius: 3px;
-	width: 960px;
+	/*width: 960px;*/
 	margin:5px 0px !important;
 	height: 43px;
 	z-index : 200;
@@ -29,7 +29,8 @@ li { list-style: none;  }
 .mynav > li > a {
 	float: left;
 	color: #fff;
-	font-size: 13px;
+	font-size: 15px;
+	font-weight:bold;
 	text-decoration: none;
 	line-height: 43px;
 	padding: 0 20px;
